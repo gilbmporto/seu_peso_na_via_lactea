@@ -1,0 +1,42 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Planet Weight</title>
+
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Descubra Seu Peso nos Outros Planetas da Via Láctea</h1>
+        </header>
+        <div class="formulario">
+            <form action="/resultado.html" method="GET">
+                <h2>Coloque seus dados abaixo:</h2>
+                <label for="peso-na-terra">Seu peso na Terra (Em Newtons):</label>
+                <input id="peso-na-terra" name="peso-na-terra" type="number" min="1" max="300" required>
+                <br>
+                <label for="planeta">Planeta de sua escolha:</label>
+                <select id="planeta" name="planeta" required>
+                    <option id="Mercurio" value="Mercurio">Mercurio</option>
+                    <option id="Venus" value="Venus">Venus</option>
+                    <option id="Marte" value="Marte">Marte</option>
+                    <option id="Jupiter" value="Jupiter">Jupiter</option>
+                    <option id="Saturno" value="Saturno">Saturno</option>
+                </select>
+            </form>
+            <div id="botao-calcular-peso">
+                <p>Calcular meu peso</p>
+            </div>
+            <h3>Seu peso no planeta escolhido:</h3>
+            <p id="peso-convertido"></p>
+        </div>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>

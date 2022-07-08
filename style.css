@@ -1,0 +1,79 @@
+body {
+    background-image: url(background-do-projeto-planet-weight.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(14, 11, 55);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(14, 11, 55);
+}
+
+.formulario {
+    font-family: 'Roboto Serif', serif;
+    border-radius: 30px;
+    display: block;
+    background-color: aliceblue;
+    width: 60%;
+    max-width: 400px;
+    padding: 20px 30px;
+    margin: 20px auto;
+}
+
+#botao-calcular-peso {
+    display: block;
+    align-content: center;
+    font-family: 'Roboto Serif', serif;
+    background-color: orangered;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px 12px;
+    margin: 10px auto;
+    max-width: 150px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.7s;
+}
+
+#botao-calcular-peso:hover {
+    background-color: rgb(153, 44, 4);
+    max-width: 180px;
+}
+
+input[type="number"], 
+input[type="text"], 
+select {
+    margin-top: 10px;
+    min-height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 5px;
+    min-width: 100px;
+}
+
+#peso-convertido {
+    text-align: center;
+    font-family: 'Roboto Serif', serif;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
