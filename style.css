@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-image: url(background-do-projeto-planet-weight.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -48,7 +54,7 @@ h3 {
     text-align: center;
     padding: 4px 12px;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 170px;
     cursor: pointer;
     transition: all;
     transition-duration: 0.7s;
